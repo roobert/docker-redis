@@ -1,0 +1,6 @@
+redis:
+  container_name: redis
+  restart: always
+  image: redis
+  volumes:
+    - ./data:/data
