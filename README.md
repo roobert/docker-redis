@@ -14,3 +14,8 @@ docker run --name=redis -d -v data:/data -t redis
 ```
 docker-compose up -d
 ```
+
+## Test
+```
+docker exec -it redis redis-cli ping
+```
